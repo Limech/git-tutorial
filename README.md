@@ -43,4 +43,13 @@ We will **not** cover:
 
     git config --global user.name "Limech"
     git config --global user.email "limech@gmail.com"
+
+    ## Remember username / password (windows)
     git config --global credential.helper wincred
+    ## On Linux
+    ## git config --global credential.helper 'cache --timeout 3600'
+
+    ## Dealing with line endings (On windows)
+    git config --global core.autocrlf true
+    ## On Linux
+    ## git config --global core.autocrlf input
